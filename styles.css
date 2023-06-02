@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Arial';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    background-color: rgb(39, 41, 41);
+}
+h1 {
+    text-align: center;
+    background-color: white;
+    margin-top: 0;
+    padding: 20px;
+    font-size: 50px;
+}
+
+  code {
+    font-family: Arial;
+  }
+    
+  .remove-button {
+    background: none;
+    color: red;
+    border: 3px,solid,red;
+    cursor: pointer;
+    font-size:18px;
+    padding: 0;
+    margin: 0 0 0 10px;
+  }
+  .app {
+    background: rgb(39, 41, 41);
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .todo-list{
+    background: #7f7d7d;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 400px;
+    
+}
+  
+  .todo{
+    background: #000000;
+    color: white;
+    box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+    padding: 3px 10px;
+    font-size: 24px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .input{
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 1rem;
+    height: 2.25em;
+    font-size: 24px;
+  }
+  
